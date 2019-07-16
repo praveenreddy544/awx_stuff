@@ -1,7 +1,8 @@
 - hosts: all
   gather_facts: false
+  become: yes
   tasks:
-    - name: install lynx
+    - name: install elinks
       yum:
        name: elinks
        state: latest

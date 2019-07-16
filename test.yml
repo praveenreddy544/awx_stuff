@@ -1,4 +1,5 @@
 - hosts: all
   tasks:
      - name: display msg
-       msg: 'testing is being done from imported'
+       debug:
+          msg: 'testing is being done from imported'

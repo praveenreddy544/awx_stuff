@@ -2,4 +2,4 @@
   tasks:
      - name: display msg
        debug:
-          msg: 'testing is being done from imported'
+          msg: 'testing is being done from imported and data'
